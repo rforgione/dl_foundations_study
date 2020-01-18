@@ -2,9 +2,13 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {}
+index = {"basic_matmul": "01_basic_network.ipynb",
+         "allclose": "01_basic_network.ipynb",
+         "dot_prod_matmul": "01_basic_network.ipynb",
+         "broadcast_mat_mul": "01_basic_network.ipynb",
+         "matmul": "01_basic_network.ipynb"}
 
-modules = []
+modules = ["feedforward.py"]
 
 doc_url = "https://your_github_username.github.io/dl_foundations_study/"
 
